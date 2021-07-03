@@ -72,3 +72,20 @@ h3{
     background: rgba(0,0,0,0.25);
 
 }
+
+@media (max-width: 600px) {
+   body{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       align-items: center;
+   }
+   h3{
+       position: relative;
+       top: 25px;
+   }
+   textarea{
+       top: 10px;
+       border: 2px solid black;
+   }
+  }
